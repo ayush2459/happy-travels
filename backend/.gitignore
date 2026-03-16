@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Database — never commit this
+backend/travel.db
+backend/*.db
+backend/*.sqlite
+
+# Secrets — NEVER commit
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated tickets/PDFs
+backend/tickets/
+
+# Logs
+*.log
